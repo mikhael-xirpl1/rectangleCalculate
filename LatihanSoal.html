@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rectangle Calculate</title>
+    <style>
+        .calculator-container{
+            background-color: khaki;
+            color: lightslategrey;
+            width: 500px;
+            border: 30px solid rgb(253, 235, 67);
+            border-radius: 20px;
+            padding: 50px;
+            margin: auto;
+        }
+        button{
+            background-color: azure;
+            color: black;
+            border: none;
+            min-height: 50px;
+            min-width: 70px;
+            border-radius: 10px;
+            animation: alternate;
+        }
+        button:hover{
+            background-color: lightslategray;
+            color: azure;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator-container">
+        <h1>Rectangle Calculator</h1>
+        <p>Width Rectangle</p>
+        <input class="width-input-field" type="text">
+        <p>Height Rectangle</p>
+        <input class="height-input-field" type="text">
+        <button onclick="myFunction()" class="calculate">Calculate</button>
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html>
